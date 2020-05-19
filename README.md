@@ -4,11 +4,11 @@ It is a good time to start a new "hobby" project.
 
 As usual, it will be based on the Google Cloud Platform. 
 
-It will contain a classic web app part. But in this time it will be implemented by using mainstream tools like Angular for front-end and Spring for the back-end (as far as it will be possible taking into account that I plan to use Google App Engine as a platform for it). Yes, I plan to host a web application on the GAE (Java 11, standard) (https://cloud.google.com/appengine/docs/standard/java11).
+It will contain a classic web app part. But in this time it will be implemented by using mainstream tools like Angular for front-end and Spring for the back-end (as far as it will be possible taking into account that I plan to use Google App Engine as a platform for it). Yes, I plan to host a web application on the [GAE (Java 11, standard)](https://cloud.google.com/appengine/docs/standard/java11).
 
 The core idea of the project is to find some interesting publicly available data sources and try to extract from them information useful for the end-user like me or anybody else. It also very desirable that the data will update in real-time. Obviously the pretenders are the weather or flight tracking data, but itis too obvious and already boring examples. 
-(https://darksky.net/dev)
-(https://developer.flightstats.com/api-docs/flightstatus/v2)
+[](https://darksky.net/dev)
+[](https://developer.flightstats.com/api-docs/flightstatus/v2)
 
 To make the data end-user related - the obvious solution is filtering data by using the current user location, it could make it useful for this user.  Another even more straightforward solution is to use the user ID or other personal attributes but I don't think that such data can be really publicly accessible. 
 

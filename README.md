@@ -17,7 +17,7 @@ So this part still completely is not clear:
 - where can I get them? 
 - how to make them to the end-user related?
 
-From a technical point of view, this part most likely will utilize [Google streaming solution: PubSub, Dataflow, Bigquery.](https://cloud.google.com/solutions/stream-analytics)
+From a technical point of view, this part most likely will utilize [Google streaming solution: Pub/Sub, Dataflow, Bigquery.](https://cloud.google.com/solutions/stream-analytics)
 
 Google Data Studio could also be used to visualize collected data, but maybe I just integrate visualization into a web application. In the lucky case, I will try to utilize Google AI/ML services as well.
 

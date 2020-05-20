@@ -1,3 +1,14 @@
+## May 20, 2020
+It occurs that it is not easy to find suitable publicly available data sources, especially those updated periodically even if not in real-time. There are such [data sources provided by NASA](https://search.earthdata.nasa.gov/search?ff=Near%20Real%20Time) but to be honest, I have no idea how to make them useful for end-user.
+
+The only interesting and suitable by technical requirements data sources I have found so far are the ones provided by [GDELT Project](https://www.gdeltproject.org/). They have interesting content ("events" from all around the world), updated frequently (at least once a day or every 15 minutes - not sure yet), can be linked to the end-user location, social attributes, and interests. 
+
+They provide data in the form of [BigQuery datasets](https://cloudplatform.googleblog.com/2014/05/worlds-largest-event-dataset-now-publicly-available-in-google-bigquery.html) that allows to use it in my project with fewer efforts although it probably will not allow me to practice in streaming pipeline implementation. 
+
+So, in the nearest days, I will dive deeper into exploring the content and formats of this data source. I will try to imagine what useful insights can get end-user (at least as me) from such content. I also need to understand in what status this project is now - it is still not clear fo me.
+
+Meanwhile, I also will start to develop the foundation level parts of the web application as well as prepare required GCP infrastructure and development environment.
+
 ## May 19, 2020
 
 It is a good time to start a new "hobby" project. 

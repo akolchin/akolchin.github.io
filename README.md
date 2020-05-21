@@ -1,3 +1,22 @@
+## May 21, 2020
+
+Today I have added two new public repositories:
+[https://github.com/akolchin/tba-server]() [https://github.com/akolchin/tba-client]()
+
+and one project to manage issues:
+[https://github.com/users/akolchin/projects/2].
+
+I started to develop foundation level parts of the web application.
+
+I decided to use [Google App Engine Java 11 Standard Environment](https://cloud.google.com/appengine/docs/standard/java11)
+
+Let's see how much headache I will get from it. 
+
+At least I already able to deploy as well as run locally the template example provided by Google 
+[Spring Boot Application Google App Engine Standard with Java 11](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11/springboot-helloworld)
+
+But all these possible only by using `maven` commands - [Cloud Code for IntelliJ plugin](https://github.com/GoogleCloudPlatform/cloud-code-intellij)  don't understand how to work with such Java 11 Standard project. (Mostly because of absent of `appengine-web.xml` which replaced by `app.yaml` as I understand)
+
 ## May 20, 2020
 It occurs that it is not easy to find suitable publicly available data sources, especially those updated periodically even if not in real-time. There are such [data sources provided by NASA](https://search.earthdata.nasa.gov/search?ff=Near%20Real%20Time) but to be honest, I have no idea how to make them useful for end-user.
 

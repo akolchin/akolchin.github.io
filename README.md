@@ -1,10 +1,10 @@
 ## May 21, 2020
 
 Today I have added two new public repositories:
-[https://github.com/akolchin/tba-server]() [https://github.com/akolchin/tba-client]()
-
+[https://github.com/akolchin/tba-server](https://github.com/akolchin/tba-server)
+[https://github.com/akolchin/tba-client](https://github.com/akolchin/tba-client)
 and one project to manage issues:
-[https://github.com/users/akolchin/projects/2].
+[https://github.com/users/akolchin/projects/2](https://github.com/users/akolchin/projects/2).
 
 I started to develop foundation level parts of the web application.
 

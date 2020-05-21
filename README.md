@@ -3,6 +3,8 @@ It occurs that it is not easy to find suitable publicly available data sources, 
 
 The only interesting and suitable by technical requirements data sources I have found so far are the ones provided by [GDELT Project](https://www.gdeltproject.org/). They have interesting content ("events" from all around the world), updated frequently (at least once a day or every 15 minutes - not sure yet), can be linked to the end-user location, social attributes, and interests. 
 
+"_... The GDELT Project is the largest open-access database on human society in existence. Its archives contain nearly 400M latitude/longitude geographic coordinates spanning over 12,900 days, making it one of the largest open-access **spatio-temporal** datasets as well...._"
+
 They provide data in the form of [BigQuery datasets](https://cloudplatform.googleblog.com/2014/05/worlds-largest-event-dataset-now-publicly-available-in-google-bigquery.html) that allows to use it in my project with fewer efforts although it probably will not allow me to practice in streaming pipeline implementation. 
 
 So, in the nearest days, I will dive deeper into exploring the content and formats of this data source. I will try to imagine what useful insights can get end-user (at least as me) from such content. I also need to understand in what status this project is now - it is still not clear fo me.

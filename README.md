@@ -1,3 +1,37 @@
+## May 22, 2020
+
+Today I have made the first commit to the server part repository. It contains mostly the test of ability to use Google Datastore and implement RESTful web service - all by using Spring provided libraries.
+
+I tried to avoid declaring separate `@RestController` by using `@RepositoryRestResource`. It works but requires more complex logic on the client-side. So, I have returned to using manually defined Controller with custom POST, GET mapped methods that support simpler logic.
+
+```java
+@RestController
+@CrossOrigin(origins = "http://localhost:4200")
+public class UserController {
+
+  private final UserRepository userRepository;
+
+  // standard constructors
+  public UserController(UserRepository userRepository) {
+    this.userRepository = userRepository;
+  }
+
+  @GetMapping("/users")
+  public List<User> getUsers() {
+    return (List<User>) userRepository.findAll();
+  }
+
+  @PostMapping("/users")
+  void addUser(@RequestBody User user) {
+    userRepository.save(user);
+  }
+}
+```
+
+I was able to make it work only with `Greenwich.SR5` version of Spring Cloud but not with the currently latest `Hoxton.SR4`. Probably I will have to return to this later.
+
+Tomorrow I will continue with the client part.
+
 ## May 21, 2020
 
 Today I have added two new public repositories:

@@ -1,3 +1,11 @@
+## May 23, 2020
+
+I created the simplest [Angular](https://angular.io/) client template with two empty screens Overview and Settings plus navigation. But the [Material Design](https://material.angular.io/) already applied to it.
+
+![image](https://user-images.githubusercontent.com/904383/82738844-1d64d480-9d3b-11ea-9aea-9b9279e72650.png)
+
+Next I will have to add user authentication.
+
 ## May 22, 2020
 
 Today I have made the first commit to the server part repository. It contains mostly the test of ability to use Google Datastore and implement RESTful web service - all by using Spring provided libraries.

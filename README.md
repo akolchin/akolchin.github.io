@@ -1,6 +1,6 @@
 ## July 24, 2020
 
-Upfated [Angular](https://angular.io/) client template up to latest [Version 10](https://blog.angular.io/version-10-of-angular-now-available-78960babd41) 
+Updated [Angular](https://angular.io/) client template up to latest [Version 10](https://blog.angular.io/version-10-of-angular-now-available-78960babd41).
 
 ## May 23, 2020
 

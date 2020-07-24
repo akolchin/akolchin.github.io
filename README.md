@@ -1,3 +1,7 @@
+## July 24, 2020
+
+Upfated [Angular](https://angular.io/) client template up to latest [Version 10](https://blog.angular.io/version-10-of-angular-now-available-78960babd41) 
+
 ## May 23, 2020
 
 I created the simplest [Angular](https://angular.io/) client template with two empty screens Overview and Settings plus navigation. But the [Material Design](https://material.angular.io/) already applied to it.
